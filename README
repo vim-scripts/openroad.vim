@@ -1,0 +1,17 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=357
+
+Some useful mappings & functions for OpenROAD programmers
+
+1) Shortcut menus for methods, procedures & event blocks  - click on a method/procedure/event name & vim jumps to that section of code.
+These functions were based on "incfiles.vim" by Thomas Ramming (much changed, I hasten to add - I have actually done some work here!)
+
+2) Folding - text folds at BEGIN/END blocks - makes long files easier to navigate
+  <F3> opens folds, <F4> closes. To turn off this feature, comment out the line "set foldmethod=marker"
+
+3) Help on keywords - place cursor on an openroad keyword then shift-K opens the appropriate part of the openroad help file (need to use pre-4.1 MR help file)
+
+4) command completion - type part of a word, press CTRL-space & Vim will guess the rest. I've taken this from "_vim_wok_visualcpp01.zip" by Wolfram Esser.
+
+It's my first vim script, so I apologise if it seems crude
+
+Paul Humphrey
